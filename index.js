@@ -1,6 +1,6 @@
 // require your server and launch it here
 const server = require("./api/server");
-const port = 6000;
+const port = 5000;
 server.listen(port, () => {
-  console.log("Running on 6000....");
+  console.log(`Running on ${port}....`);
 });
